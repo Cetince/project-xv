@@ -89,18 +89,41 @@ print(miles_conerter)
 
 
 print(not 0 and "write me")
+
+
+
+
+
+def whatever(n,num,check):
+    if n % 2 == 0 and n % 4 == 0:
+        print('your mom is gay: ')
+
+    elif n % 2 == 0:
+        print('fuck you motherfucker: ')
+    
+
+    else:
+        print('go fuck yourself: ')
+
+    if num % check == 0:
+        print("your mom didn't wanted give a birth to you" )
+    
+    else:
+        print('kill your self while jumping off the cliff')
+
+
+
+whatever(float(input('you fuckin dumbfuck')),float(input('kick yourself in balls')),float(input('shoot your mom then yourself')))
 '''
 
-print(21)
-
-
-
-print(1231234125)
-
-
-print('ssfasfas')
-
-
-print('sdqwewqqf')
-
-print(21312)
+a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+def whatever():
+    b = []
+    for i in a:
+        if i >= 5:
+            continue
+        else:
+            b.append(i)
+    print(b)
+whatever()
+        
